@@ -1,0 +1,10 @@
+[
+  {
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "firstname": "test",
+    "lastname": "user",
+    "zipcode": "12345"
+
+  }
+]
