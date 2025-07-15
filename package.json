@@ -1,0 +1,22 @@
+{
+  "name": "saucelabs-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   
+  "test": "cypress run",
+  "allure:generate": "allure generate allure-results --clean",
+  "allure:open": "allure open",
+  "test:report": "cypress run && npm run allure:generate && npm run allure:open"
+
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.41.2",
+    "cypress": "^14.5.1"
+  }
+}
